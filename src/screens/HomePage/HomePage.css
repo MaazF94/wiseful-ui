@@ -1,0 +1,72 @@
+.HomePage {
+  flex-direction: column;
+  background: #4556a4;
+}
+
+.PageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Form {
+  width: 544px;
+  height: 787px;
+  background: #fafafa;
+  border-radius: 20px;
+  margin: 80px 0px;
+}
+
+.FormTitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #353535;
+  margin-top: 48px;
+}
+
+.InputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Label {
+  margin: 8px 0px;
+  font-family: Work Sans;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+}
+
+.Input {
+  padding: 10px 16px;
+  width: 353px;
+  height: 40px;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.FormSignUpBtn {
+  width: 230px;
+  height: 45px;
+  color: white;
+  background: #123234;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.FormEnd {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ExistingAccount {
+  font-family: Work Sans;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #123234;
+}

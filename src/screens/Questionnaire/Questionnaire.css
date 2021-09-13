@@ -1,0 +1,91 @@
+.Questionnaire {
+  flex-direction: column;
+  background: #4556a4;
+}
+
+.PageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Form {
+  width: 544px;
+  height: 1365px;
+  background: #fafafa;
+  border-radius: 20px;
+  margin: 80px 0px;
+}
+
+.FormTitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #353535;
+  margin-top: 48px;
+}
+
+.InputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Label {
+  margin: 2px 0px;
+  font-family: Work Sans;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #353535;
+  font-weight: 600;
+}
+
+.OptionalLabel {
+  color: #666666;
+  margin: 2px 0px;
+  font-family: Work Sans;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Input {
+  padding: 10px 12px;
+  width: 353px;
+  height: 40px;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 8px 0px;
+  color: #666666;
+}
+
+.SelectedOption {
+  background-color: #4556a4;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 2px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+.FormSignUpBtn {
+  width: 230px;
+  height: 45px;
+  color: white;
+  background: #123234;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.FormEnd {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

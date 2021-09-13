@@ -1,0 +1,81 @@
+.Steps {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.StepOneGroup {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.StepOne {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #353535;
+  background-color: #f0a93b;
+  border-radius: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.StepOneLabel {
+  width: 106px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #353535;
+  font-family: Work Sans;
+}
+
+.StepTwoGroup {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.StepTwo {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #353535;
+  background-color: #e46735;
+  border-radius: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.StepTwoLabel {
+  width: 106px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #353535;
+  font-family: Work Sans;
+}
+
+.StepThreeGroup {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.StepThree {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #353535;
+  background-color: #33748d;
+  border-radius: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.StepThreeLabel {
+  width: 106px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #353535;
+  font-family: Work Sans;
+}

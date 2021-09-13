@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import HomePage from "./screens/HomePage/HomePage";
+import NotFound from "./screens/NotFound/NotFound"
+import Questionnaire from "./screens/Questionnaire/Questionnaire";
 
-function App() {
+// Some folks find value in a centralized route config.
+// A route config is just data. React is great at mapping
+// data into components, and <Route> is a component.
+
+// Our route config is just an array of logical "routes"
+// with `path` and `component` props, ordered the same
+// way you'd do inside a `<Switch>`.
+
+export default function RouterConfig() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route exact path="/questionnaire">
+            <Questionnaire />
+          </Route>
+          <Route path="*">
+            <NotFound />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
-
-export default App;

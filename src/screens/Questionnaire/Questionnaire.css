@@ -10,10 +10,11 @@
 
 .Form {
   width: 544px;
-  height: 1365px;
+  height: fit-content;
   background: #fafafa;
   border-radius: 20px;
   margin: 80px 0px;
+  padding: 15px 0px;
 }
 
 .FormTitle {
@@ -22,7 +23,6 @@
   line-height: 42px;
   text-align: center;
   color: #353535;
-  margin-top: 48px;
 }
 
 .InputContainer {

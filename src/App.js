@@ -1,3 +1,4 @@
+import Amplify from "@aws-amplify/core";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -17,6 +18,14 @@ import Questionnaire from "./screens/Questionnaire/Questionnaire";
 // way you'd do inside a `<Switch>`.
 
 export default function RouterConfig() {
+  Amplify.configure({
+    Auth: {
+      region: "us-east-2",
+      userPoolId: "us-east-2_fUAHy7Z5Z",
+      userPoolWebClientId: "6c9rnv6ggvlcmc73lj5j9m81oj",
+    },
+  });
+
   return (
     <Router>
         <Switch>
